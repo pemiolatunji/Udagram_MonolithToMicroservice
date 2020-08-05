@@ -1,0 +1,10 @@
+version: '1'
+services:
+  udagram-feed:
+    build:
+      context: ./udagram-api-feed
+    image: prishar972/udagram-feed
+  udagram-user:
+    build:
+      context: ./udagram-api-user
+    image: prishar972/udagram-user
