@@ -15,7 +15,7 @@ spec:
         service: backend-feed
     spec:
       containers:
-      - image: prishar972/udagram-feed
+      - image: prishar972/udagramfeed
         name: backend-feed
         imagePullPolicy: Always  
         resources:

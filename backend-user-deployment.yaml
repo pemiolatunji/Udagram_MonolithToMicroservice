@@ -15,7 +15,7 @@ spec:
         service: backend-user
     spec:
       containers:
-      - image: prishar972/udagram-user
+      - image: prishar972/udagramuser
         name: backend-user 
         imagePullPolicy: Always  
         resources:
