@@ -9,7 +9,7 @@ services:
         - backend-user
         - backend-feed
   backend-user:
-    image: prishar972/udagram-user
+    image: prishar972/udagramuser
     volumes:
       - %UserProfile%\.aws:/root/.aws
     environment:
@@ -23,7 +23,7 @@ services:
       JWT_SECRET: $JWT_SECRET
       URL: "http://localhost:8100"
   backend-feed:
-    image: prishar972/udagram-feed
+    image: prishar972/udagramfeed
     volumes:
       - %UserProfile%\.aws:/root/.aws
     environment:
